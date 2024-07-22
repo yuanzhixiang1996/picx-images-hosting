@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Device Node -->
+  <rect x="50" y="50" width="200" height="500" rx="10" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="150" y="80" text-anchor="middle" font-weight="bold">Device Node</text>
+  
+  <!-- Node Components -->
+  <rect x="70" y="100" width="160" height="40" rx="5" fill="#d4e6f1" stroke="#333"/>
+  <text x="150" y="125" text-anchor="middle">Node Manager</text>
+  
+  <rect x="70" y="150" width="160" height="40" rx="5" fill="#d4e6f1" stroke="#333"/>
+  <text x="150" y="175" text-anchor="middle">P2P Connection Handler</text>
+  
+  <rect x="70" y="200" width="160" height="40" rx="5" fill="#d4e6f1" stroke="#333"/>
+  <text x="150" y="225" text-anchor="middle">Resource Manager</text>
+  
+  <rect x="70" y="250" width="160" height="40" rx="5" fill="#d4e6f1" stroke="#333"/>
+  <text x="150" y="275" text-anchor="middle">Sync Engine</text>
+  
+  <rect x="70" y="300" width="160" height="40" rx="5" fill="#d4e6f1" stroke="#333"/>
+  <text x="150" y="325" text-anchor="middle">Security Module</text>
+  
+  <rect x="70" y="350" width="160" height="40" rx="5" fill="#d4e6f1" stroke="#333"/>
+  <text x="150" y="375" text-anchor="middle">UI Controller</text>
+  
+  <!-- Shared Resources -->
+  <rect x="70" y="420" width="160" height="120" rx="5" fill="#e8daef" stroke="#333"/>
+  <text x="150" y="440" text-anchor="middle" font-weight="bold">Shared Resources</text>
+  <text x="150" y="470" text-anchor="middle">Files</text>
+  <text x="150" y="490" text-anchor="middle">Clipboard</text>
+  <text x="150" y="510" text-anchor="middle">Input Devices</text>
+  <text x="150" y="530" text-anchor="middle">Display</text>
+  
+  <!-- Network -->
+  <ellipse cx="400" cy="300" rx="150" ry="100" fill="#fdebd0" stroke="#333" stroke-width="2"/>
+  <text x="400" y="300" text-anchor="middle" font-weight="bold">P2P Network</text>
+  
+  <!-- Another Device Node -->
+  <rect x="550" y="50" width="200" height="500" rx="10" fill="#f0f0f0" stroke="#333" stroke-width="2" opacity="0.6"/>
+  <text x="650" y="80" text-anchor="middle" font-weight="bold" opacity="0.6">Other Device Nodes</text>
+  
+  <!-- Connections -->
+  <line x1="250" y1="170" x2="370" y2="270" stroke="#333" stroke-width="2"/>
+  <line x1="550" y1="170" x2="430" y2="270" stroke="#333" stroke-width="2" opacity="0.6"/>
+</svg>
